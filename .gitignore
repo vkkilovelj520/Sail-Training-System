@@ -1,0 +1,40 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+# ========== 1. 绝对禁止上传的敏感配置文件 ==========
+# 所有模块下的 bootstrap/application 配置文件
+**/src/main/resources/bootstrap*.yml
+**/src/main/resources/bootstrap*.yaml
+**/src/main/resources/bootstrap*.properties
+**/src/main/resources/application*.yml
+**/src/main/resources/application*.yaml
+**/src/main/resources/application*.properties
+**/src/main/resources/*.local.yml
+**/src/main/resources/*.dev.yml
+
+# 环境变量/密钥文件
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# ========== 2. IDE/本地环境文件（无需上传） ==========
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.log
+logs/
+
+# ========== 3. 编译/打包产物（无需上传） ==========
+target/
+build/
+*.class
+*.jar
+*.war
+
+# ========== 4. 其他本地临时文件 ==========
+.DS_Store
+Thumbs.db
